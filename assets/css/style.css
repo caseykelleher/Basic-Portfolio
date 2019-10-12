@@ -73,7 +73,7 @@ header {
   }
 
 body {
-    background-image: url(../images/brickwall.png);
+    background-image: url(../images/darkwood.png);
     font-family: Arial;
     font-size: 18px;
     color: #777777;
@@ -117,3 +117,39 @@ footer {
     border-top: 8px solid #4aaaa5;
     font-size: 12px;
 }
+/* portfolio html*/
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: hidden;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 5px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    font-family: "Georgia";
+    font-size: 22px;
+  }
+  
